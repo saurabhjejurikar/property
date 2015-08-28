@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="propseek">
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
+		maxActive="5" maxIdle="1" maxWait="10000" name="jdbc/property" type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/properties_db?characterEncoding=UTF-8&amp;autoReconnect=true"
+		validationQuery="SELECT 1" username="root" password="Memory_1234" />
+	<!-- <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" 
+		maxActive="5" maxIdle="1" maxWait="10000" name="jdbc/property" type="javax.sql.DataSource" 
+		url="jdbc:mysql://10.10.10.135:3306/property?characterEncoding=UTF-8&amp;autoReconnect=true" 
+		validationQuery="SELECT 1" username="recruit_net" password="recruit_net"/> -->
+</Context>
